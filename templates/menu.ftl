@@ -8,12 +8,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" hhref="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">DailyPrayer</a>
+          <a class="navbar-brand" href="https://dailyprayer.github.io">DailyPrayer</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">About</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archive</a></li>
           </ul>
         </div><!--/.nav-collapse -->
